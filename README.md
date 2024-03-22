@@ -12,19 +12,10 @@ An in-depth paragraph about your project and overview of use.
 
 ![Image Alt Text](https://github.com/nesalot/css-animations/blob/main/text-bg-gif/jmerrell_text-bg-gif.gif)
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
+* Learned how to use animated gif to overlay over text to give a cool effect.
+* Learned about CSS min/max property ex: below code has 18px min and 24px max with 1.8vw scaling.
 ```
-code blocks for commands
+font-size: min(max(18px, 1.8vw), 24px);
 ```
 
 ## Help
