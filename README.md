@@ -4,7 +4,7 @@ My playground to house a collection of various css animation projects I've creat
 
 ## Projects
 
-### 1. CSS Text Background using Gif
+### 1. CSS Text Background using gif
 
 ![Image Alt Text](https://github.com/nesalot/css-animations/blob/main/text-bg-gif/jmerrell_text-bg-gif.gif)
 
