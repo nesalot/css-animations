@@ -1,10 +1,8 @@
 body { font-family: sans-serif; background: #0f0f0f; color: #efece6; }
-h1,h2,h3,h4,h5,h6 { margin: 0; }
-p { margin: 0; }
+h1, p { margin: 0; }
 
 .section-hero-home { overflow: hidden; max-width: 1280px; margin: auto; padding: 20px; }
 .section-hero-home .hero-content { text-align: center; }
-.section-hero-home .hero-content .paragraph { margin-left: auto; margin-right: auto; }
 .section-hero-home .hero-content .buttons { display: inline-flex; justify-content: center; }
 .hero-layout { display: flex; flex-flow: column nowrap; }
 .hero-content .heading { font-weight: 900; letter-spacing: 0.02em; line-height: 80%; }
@@ -41,7 +39,6 @@ p { margin: 0; }
     .hero-content .heading { font-size: min(max(80px, 10vw), 125px); }
     .hero-content .paragraph { font-size: min(max(18px, 1.8vw), 24px); }
     .section-hero-home .hero-content { text-align: left; }
-    .section-hero-home .hero-content .paragraph { margin-left: 0; margin-right: 0; }
     .section-hero-home .hero-content .buttons { justify-content: flex-start; }
 }
 
