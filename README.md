@@ -8,7 +8,7 @@ My playground to house a collection of various css animation projects I've creat
 
 ![Image Alt Text](https://github.com/nesalot/css-animations/blob/main/text-bg-gif/jmerrell_text-bg-gif.gif)
 
-* Learned how to use animated gif to overlay over text to give a cool effect.
+* Used an animated gif to overlay over text to give a cool effect.
 * Used CSS min/max property. ex: `font-size: min(max(18px, 1.8vw), 24px)` which has 18px min and 24px max font size with 1.8vw scaling.
 
 ### 2. Project in Progress
