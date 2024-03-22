@@ -10,8 +10,9 @@ An in-depth paragraph about your project and overview of use.
 
 ### CSS Text Background using Gif
 
+![Image Alt Text](https://github.com/nesalot/css-animations/blob/main/text-bg-gif/jmerrell_text-bg-gif.gif)
+
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
 ### Installing
 
