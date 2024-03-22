@@ -1,14 +1,14 @@
 # CSS Animations
 
-Simple overview of use/purpose.
+My playground to house a collection of various css animation projects I've created.
 
 ## Description
 
 An in-depth paragraph about your project and overview of use.
 
-## Getting Started
+## Projects
 
-### Dependencies
+### CSS Text Background using Gif
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
