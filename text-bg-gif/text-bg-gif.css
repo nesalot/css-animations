@@ -1,15 +1,15 @@
 body { font-family: sans-serif; background: #0f0f0f; color: #efece6; }
 h1, p { margin: 0; }
 
-.section-hero-home { overflow: hidden; max-width: 1280px; margin: auto; padding: 20px; }
-.section-hero-home .hero-content { text-align: center; }
-.section-hero-home .hero-content .buttons { display: inline-flex; justify-content: center; }
-.hero-layout { display: flex; flex-flow: column nowrap; }
-.hero-content .heading { font-weight: 900; letter-spacing: 0.02em; line-height: 80%; }
-.hero-content .heading { font-size: 80px; }
-.hero-content .paragraph { font-size: 18px; line-height: 1.6; margin-top: 20px; }
+.section-text-bg-gif { overflow: hidden; max-width: 1280px; margin: auto; padding: 20px; }
+.section-text-bg-gif .animation-content { text-align: center; }
+.section-text-bg-gif .animation-content .buttons { display: inline-flex; justify-content: center; }
+.animation-container { display: flex; flex-flow: column nowrap; }
+.animation-content .heading { font-weight: 900; letter-spacing: 0.02em; line-height: 80%; }
+.animation-content .heading { font-size: 80px; }
+.animation-content .paragraph { font-size: 18px; line-height: 1.6; margin-top: 20px; }
 
-.section-hero-home .hero-content .heading {
+.section-text-bg-gif .animation-content .heading {
   background-clip: text;
   -webkit-background-clip: text;
   background-image: url(https://media2.giphy.com/media/HkEDr0jVekaZO/giphy.gif?cid=790b76115151ed408a9cae4539eb6351baba5d85998ab783&ct=g&rid=giphy.gif);
@@ -21,7 +21,7 @@ h1, p { margin: 0; }
   text-transform: uppercase;
 }
 
-.section-hero-home .hero-content .heading:before {
+.section-text-bg-gif .animation-content .heading:before {
   background-color: #efece6;
   content: "";
   height: 100%;
@@ -34,15 +34,15 @@ h1, p { margin: 0; }
 }
 
 @media (min-width: 768px) {
-    .hero-layout { align-items: center; }
-    .hero-content { max-width: 760px; }
-    .hero-content .heading { font-size: min(max(80px, 10vw), 125px); }
-    .hero-content .paragraph { font-size: min(max(18px, 1.8vw), 24px); }
-    .section-hero-home .hero-content { text-align: left; }
-    .section-hero-home .hero-content .buttons { justify-content: flex-start; }
+    .animation-container { align-items: center; }
+    .animation-content { max-width: 760px; }
+    .animation-content .heading { font-size: min(max(80px, 10vw), 125px); }
+    .animation-content .paragraph { font-size: min(max(18px, 1.8vw), 24px); }
+    .section-text-bg-gif .animation-content { text-align: left; }
+    .section-text-bg-gif .animation-content .buttons { justify-content: flex-start; }
 }
 
 @media screen and (min-width: 1440px) {
-    .hero-content .heading { font-size: 125px; }
-    .hero-content .paragraph { font-size: 24px; }
+    .animation-content .heading { font-size: 125px; }
+    .animation-content .paragraph { font-size: 24px; }
 }
